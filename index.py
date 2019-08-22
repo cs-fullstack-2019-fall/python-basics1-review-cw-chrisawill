@@ -1,10 +1,11 @@
 ### Problem 1:
 # Create a program that prints the user input until they enter 'q' to quit.
 
-userName = input("Enter your name: ")
-while userName != "q":
-   # if userName == "":
-    print(userName)
+# userName = input("Enter your name: ")
+# while userName != "q":
+#    # if userName == "":
+#     print(userName)
+#     #you have to update the value in the condition
   
 
 
@@ -24,13 +25,13 @@ while userName != "q":
 #         print("3")
 #     else:
 #         print("ERROR")
-# 
+# # you have to update the value in the condition
 
 ### Problem 4:
 # # Create a program that takes the user input until they enter 'q'. You should store all of their input and separate the input with a comma. Once they enter 'q', print all of the comma separated words they entered.
-# userInput = input("Enter a word. ")
-# listN = ""
-# while userInput != "q":
-#    listN = listN + "," + userInput
-#    userInput = input("Enter a word. ")
-# # print(listN)
+userInput = input("Enter a word. ")
+listN = ""
+while userInput != "q":
+   listN = listN + "," + userInput
+   userInput = input("Enter a word. ")
+print(listN)
